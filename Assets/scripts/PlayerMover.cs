@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerMover : MonoBehaviour
   { 
-    public int speed = 300;
+    public int speed = 00;
     bool isMoving = false;
 
     void Start()

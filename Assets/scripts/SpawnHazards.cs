@@ -39,7 +39,7 @@ public class SpawnHazards : MonoBehaviour {
     {
         canSpawn = false;
         timeBetweenSpawns = Random.Range(0.5f, 2.5f);       
-        amountOfHazardsToSpawn = Random.Range(1, 6);        
+        amountOfHazardsToSpawn = Random.Range(1, 8);        
         for(int i = 0; i < amountOfHazardsToSpawn; i ++)
         {
             Vector3 spawnPos = new Vector3(Random.Range(minX, maxX), 20.0f, 4.0f);   

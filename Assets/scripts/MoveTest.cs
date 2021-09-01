@@ -18,7 +18,7 @@ public class MoveTest : MonoBehaviour
     IEnumerator MoveObject(Transform thisTransform, Vector3 startPos, Vector3 endPos, float time)
     {
         var i= 0.0f;
-        var rate= 0.4f/time;
+        var rate= 0.1f/time;
         while(i < 1.0f)
         {
             i += Time.deltaTime * rate;

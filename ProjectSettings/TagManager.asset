@@ -6,6 +6,10 @@ TagManager:
   tags:
   - Platform
   - enemy
+  - Ocean
+  - Hazard
+  - sfx
+  - Floor
   layers:
   - Default
   - TransparentFX
